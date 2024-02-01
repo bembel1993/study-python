@@ -57,3 +57,4 @@ print(a)
 # git branch - список веток
 # git log - посмотреть все коммиты в ветке
 # git checkout -b "name_branch" - создать новую ветку и переключиться на нее
+# git switch main (itacademy)- переключиться на ветку
