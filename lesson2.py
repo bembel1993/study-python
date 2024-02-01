@@ -58,3 +58,4 @@ print(a)
 # git log - посмотреть все коммиты в ветке
 # git checkout -b "name_branch" - создать новую ветку и переключиться на нее
 # git switch main (itacademy)- переключиться на ветку
+# git merge itacademy (main) - слияние коммитов главной ветки со второстепенной, после переключения на ветку main
