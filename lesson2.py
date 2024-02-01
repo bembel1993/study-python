@@ -52,3 +52,8 @@ print (a>b)
 # and - возвращает последний true или false
 a = 5 and 6
 print(a)
+
+# git команды:
+# git branch - список веток
+# git log - посмотреть все коммиты в ветке
+# git checkout -b "name_branch" - создать новую ветку и переключиться на нее
