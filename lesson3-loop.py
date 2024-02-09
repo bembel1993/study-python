@@ -73,18 +73,19 @@
 # print(b)
 
 
-a = [3, 6, 4, 9]
-target = 7
-b = []
-c = []
-for index, velue in enumerate(a):
-    #print(velue)
-    for index2, velue2 in enumerate(a):
-        b = velue2 + velue
-        if b == target:
-            c.append(index)
-            print(velue2)
-print(c)
+# a = [3, 6, 4, 9]
+# target = 7
+# b = []
+# c = []
+# for index, velue in enumerate(a):
+#     #print(velue)
+#     for index2, velue2 in enumerate(a):
+#         b = velue2 + velue
+#         if b == target:
+#             c.append(index)
+#             print(velue2)
+# print(c)
+
 
 # num = 100
 # num2 = int(input("Угадай число"))
@@ -103,3 +104,16 @@ print(c)
 # b = [1, 2, 3, 4, 5]
 # a = [1 for i in b if i % 2 == 0]
 # print(a)
+
+# a = {k: v + 1 for k, v in enumerate(range(10))}
+# print(a)
+
+# a = {v for v in range(10) if v <= 3}
+# print(a)
+
+# a = list(range(100))
+# b = {c for c in a if c % 3 == 0 and c % 5 == 0}
+# print(b)
+
+a = ["Kirill" + f" {i}" for i in range(5)]
+print(a)
