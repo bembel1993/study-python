@@ -73,18 +73,18 @@
 # print(b)
 
 
-# a = [3, 6, 4, 9]
-# target = 7
-# b = []
-# c = []
-# for index, velue in enumerate(a):
-#     #print(velue)
-#     for index2, velue2 in enumerate(a):
-#         b = velue2 + velue
-#         if b == target:
-#             c.append(index)
-#             print(velue2)
-# print(c)
+a = [3, 6, 4, 9]
+target = 7
+b = []
+c = []
+for index, velue in enumerate(a):
+    #print(velue)
+    for index2, velue2 in enumerate(a):
+        b = velue2 + velue
+        if b == target:
+            c.append(index)
+            print(velue2)
+print(c)
 
 
 # num = 100
@@ -115,5 +115,5 @@
 # b = {c for c in a if c % 3 == 0 and c % 5 == 0}
 # print(b)
 
-a = ["Kirill" + f" {i}" for i in range(5)]
-print(a)
+# a = ["Vitali" + f" {i}" for i in range(5)]
+# print(a)
